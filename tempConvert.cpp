@@ -23,7 +23,7 @@ void Fahrenheit() {
         tempCelsiusInt = std::stof(tempCelsiusStr);
 
         // calculate temperature in fahrenheit
-        tempFahrenheit = 9 / 5 * tempCelsiusInt + 32;
+        tempFahrenheit = 1.8 * tempCelsiusInt + 32;
 
         // display temperature in fahrenheit
         std ::cout << "The temperature in fahrenheit is "
